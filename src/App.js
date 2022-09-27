@@ -15,7 +15,7 @@ function App() {
      const [running, setRunning] = React.useState(false);
  
      // State for Best Time
-     const [bestTime, setBestTime] = React.useState(0);
+     const [bestTime, setBestTime] = React.useState(22222);
  
      // useEffect Hook that gets bestTime from localStorage
      React.useEffect(() => {
